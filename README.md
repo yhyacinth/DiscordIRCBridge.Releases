@@ -2,8 +2,8 @@
 Ozinger Network Discord-IRC Bridge(Bouncer)
 
 # Main features
-* PRIVMSG to IRC #channel from mapped Discord #channel(using Built-in IRC client)
-* Bounces chat to Discord #channel from mapped IRC #channel(using WebHook)
+* Bounces a message from an IRC channel to a mapped Discord channel. (WebHook)
+* PRIVMSG a message from the Discord channel to the mapped IRC channel. (Built-in IRC Client)
 
 # Features
 * Support for multiple operating options
@@ -14,8 +14,4 @@ Ozinger Network Discord-IRC Bridge(Bouncer)
 
 # Installation
 1. Input settings `bridge info` and `config.ini`
-2. Registering a Windows service using `nssm.exe`
-
-# Issues
-
-# FAQ
+2. Register the Windows Service “DiscordIRCBridge” using `nssm.exe`.
